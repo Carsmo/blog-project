@@ -176,7 +176,7 @@ export default function CommentSection({postId}) {
                         </div>
                     </div>
                 </Modal.Body>
-        </Modal>
+            </Modal>
         </div>
     )
 }
