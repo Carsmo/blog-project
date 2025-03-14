@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import scrollbarPlugin from 'tailwind-scrollbar';
+import { flowbitePlugin } from 'flowbite/plugin';
 const flowbite = require("flowbite-react/tailwind");
 export default {
   content: [
@@ -10,7 +12,7 @@ export default {
     extend: {},
   },
   plugins: [
-    flowbite.plugin(),
-    require('tailwind-scrollbar'),
+    flowbitePlugin,
+    scrollbarPlugin
   ],
 }
